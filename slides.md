@@ -153,7 +153,26 @@ layout: statement
 class: 'text-center'
 ---
 
-# Clone the repository <mdi-download-box class="color-blue-500" />
+# Clone the repository <mdi-download-box class="color-green-500" />
+
+`git clone`
+
+
+But first, we need to [setup an ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)...
+
+
+---
+
+# SSH setup
+
+1. open git bash
+2. `ssh-keygen -t ed25519`
+3. copy your public key: `cat ~/.ssh/id_ed25519.pub`
+4. add the key to GitHub
+
+---
+
+# Clone the repository <mdi-download-box class="color-green-500" />
 
 `git clone`
 
