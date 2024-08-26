@@ -114,7 +114,7 @@ clicks: 3
 
 <br>
 
-<div v-click="3" class="relative -left-110 top-10">
+<div v-click="3" class="relative -left-110 top-10 text-amber-500">
 
 ### history
 
@@ -132,9 +132,6 @@ clicks: 3
 <style>
   p {
      font-size: 0.5em;
-  }
-  h3 {
-    @apply text-amber-500;
   }
 </style>
 
