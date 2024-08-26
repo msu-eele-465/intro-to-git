@@ -365,6 +365,10 @@ layout: section
 </div>
 
 ---
+
+<img src="https://imgs.xkcd.com/comics/git_commit.png" class="h-full">
+
+---
 layout: statement
 class: 'text-center'
 ---
