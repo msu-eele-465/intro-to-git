@@ -11,7 +11,7 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "qrcode.vue": "^3.4.1",
-    "slidev-theme-eloc": "^1.0.1"
+    "slidev-theme-eloc": "latest"
   },
   "devDependencies": {
     "@iconify-json/emojione": "^1.1.7",
