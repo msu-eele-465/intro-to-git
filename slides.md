@@ -55,49 +55,6 @@ follow along!
 
 <img src="/phd-comics-not-final.gif" class="h-full">
 
----
-layout: statement
-class: 'text-center'
----
-
-# Why use version control?
-
-<div class="flex flex-row justify-between w-full h-full items-center">
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-    <flat-color-icons-collaboration class="text-70"/>
-    <i>collaboration</i>
-  </div>
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-    <mdi-test-tube class="text-70 text-blue-500"/>
-    <i>reproducibility</i>
-  </div>
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-    <mdi-cloud-upload class="text-70 text-green-500"/>
-    <i>backups</i>
-  </div>
-</div>
-
----
-layout: statement
-class: 'text-center'
----
-
-# Version control in academia
-
-<div class="flex flex-row justify-between w-full h-full items-center">
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-   <mdi-file-code-outline class="text-70 text-purple-500"/>
-   <i>software</i>
-  </div>
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-   <mdi-fountain-pen class="text-70 text-blue-500"/>
-   <i>writing</i>
-  </div>
-  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-   <mdi-code-brackets class="text-70 text-green-500"/>
-   <Link to="zenodo"><i>citations</i></Link>
-  </div>
-</div>
 
 ---
 layout: section
@@ -613,20 +570,6 @@ gitGraph:
   commit tag: "v2.0.0"
 ```
 
----
-
-<div class="flex flex-row w-full justify-between items-center">
-
-<mdi-presentation class="text-200 text-blue-500"/>
-
-<mdi-arrow-right class="text-150 text-amber-500" />
-
-<qrcode-vue :size=500 />
-
-</div>
-
-<presentation-url class="absolute bottom-20" /> 
-
 
 ---
 layout: section
@@ -637,18 +580,6 @@ layout: section
 <emojione-party-popper class="text-50" />
 
 
----
-routeAlias: zenodo
----
-
-## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
-
-<div class="text-6xl text-center">
-assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
-</div>
-
-- [random example](https://zenodo.org/record/8370339)
-- [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 
 ---
 
