@@ -60,7 +60,7 @@ follow along!
 layout: section
 ---
 
-# Types of version control
+# Types of version control systems
 
 ---
 
