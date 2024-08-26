@@ -66,30 +66,29 @@ layout: section
 
 <div class="grid grid-cols-2 gap-40">
 
-<div class="flex justify-center">
+<div class="flex-row justify-evenly justify-items-center items-center align-text-center">
 
 ## Centralized
 
 
 <img src="/vcs-comparison-centralized.svg">
 
+SVN
+
 </div>
 
-<div class="flex justify-center">
+<div class="flex-row justify-evenly justify-items-center items-center align-text-center">
 
 ## Decentralized
 
-
 <img src="/vcs-comparison-decentralized.svg">
 
+git
+
+
 </div>
 </div>
 
-<style>
-  h2 {
-    @apply absolute top-5 text-center;
-  }
-</style>
 
 ---
 
