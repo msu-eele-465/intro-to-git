@@ -389,7 +389,13 @@ oops! <emojione-bug /> <emojione-grinning-face-with-sweat />
 
 # Exercise
 
-1. revert your first commit
+revert your first commit
+
+1. find the commit hash: `git log`
+2. `git revert <commit hash>`
+
+  
+
 
 ---
 layout: section
