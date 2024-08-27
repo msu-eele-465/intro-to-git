@@ -317,6 +317,60 @@ layout: section
 layout: section
 ---
 
+# Interacting with GitHub
+
+local vs. remote repositories
+
+---
+layout: full
+---
+
+
+<img class="h-screen" src="/local-vs-remote-repos-local-changes.svg">
+
+
+---
+layout: full
+---
+
+
+<img class="h-screen" src="/local-vs-remote-repos-local-changes-push.svg">
+
+---
+
+# Exercise
+#### *pushing* to GitHub (the "remote" repository)
+
+1. verify that your local branch is ahead of the remote
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git status`
+2. push your local changes to the GitHub repository (remote)
+
+
+---
+layout: full
+---
+
+<img class="h-screen" src="/local-vs-remote-repos-remote-changes.svg">
+
+---
+layout: full
+---
+
+<img class="h-screen" src="/local-vs-remote-repos-remote-changes-pull.svg">
+
+---
+
+# Exercise
+#### *pulling* from GitHub
+
+1. edit a file and make a commit using your repo's GitHub webpage
+2. pull those changes into your local repo
+
+
+---
+layout: section
+---
+
 # Commit philosophy
 
 <emojione-thinking-face class="text-50"/>
@@ -387,91 +441,13 @@ layout: section
 
 <img src="https://imgs.xkcd.com/comics/git_commit.png" class="h-full">
 
----
-layout: statement
-class: 'text-center'
----
-
-<div class="text-8xl">
-oops! <emojione-bug /> <emojione-grinning-face-with-sweat />
-</div>
-
-
-<br>
-
-# Reverting changes
-
-
-`git revert`
-
----
-
-# Exercise
-
-revert your first commit
-
-1. find the commit hash: `git log`
-2. `git revert <commit hash>`
 
   
-
-
 ---
 layout: section
 ---
 
-# Interacting with GitHub
 
-local vs. remote repositories
-
----
-layout: full
----
-
-
-<img class="h-screen" src="/local-vs-remote-repos-local-changes.svg">
-
-
----
-layout: full
----
-
-
-<img class="h-screen" src="/local-vs-remote-repos-local-changes-push.svg">
-
----
-
-# Exercise
-#### *pushing* to GitHub (the "remote" repository)
-
-1. verify that your local branch is ahead of the remote
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git status`
-2. push your local changes to the GitHub repository (remote)
-
-
----
-layout: full
----
-
-<img class="h-screen" src="/local-vs-remote-repos-remote-changes.svg">
-
----
-layout: full
----
-
-<img class="h-screen" src="/local-vs-remote-repos-remote-changes-pull.svg">
-
----
-
-# Exercise
-#### *pulling* from GitHub
-
-1. edit a file and make a commit using your repo's GitHub webpage
-2. pull those changes into your local repo
-
----
-layout: section
----
 
 # Tags and branches
 
@@ -596,14 +572,6 @@ gitGraph:
 ```
 
 
----
-layout: section
----
-
-# Bonus slides
-
-<emojione-party-popper class="text-50" />
-
 
 
 ---
@@ -630,6 +598,41 @@ layout: section
 
 </div>
 </div>
+
+---
+layout: section
+---
+
+# Bonus slides
+
+<emojione-party-popper class="text-50" />
+
+
+---
+layout: statement
+class: 'text-center'
+---
+
+<div class="text-8xl">
+oops! <emojione-bug /> <emojione-grinning-face-with-sweat />
+</div>
+
+
+<br>
+
+# Reverting changes
+
+
+`git revert`
+
+---
+
+# Exercise
+
+revert your first commit
+
+1. find the commit hash: `git log`
+2. `git revert <commit hash>`
 
 
 ---
