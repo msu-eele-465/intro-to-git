@@ -571,7 +571,27 @@ gitGraph:
   commit tag: "v2.0.0"
 ```
 
+---
+layout: section
+class: 'text-center'
+---
 
+# GitHub submission procedure
+
+How we'll submit assignments in this class
+
+---
+
+0. make sure you have `main` checked out: `git switch main`
+1. update repo: `git pull`
+2. create branch: `git branch lab-1`
+3. switch to branch: `git switch lab-1`
+4. do work: *add*, *commit*, *push*
+5. [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+6. merge the pull request
+7. pull changes into main: `git switch main; git pull`
+8. tag the submission: `git tag -a lab-1-submission`
+9. push the tag: `git push --tags`
 
 
 ---
