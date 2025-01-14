@@ -39,7 +39,6 @@ class: 'text-center'
 <div>
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-300px" al6="git"/>
 <br>
-<!-- insert presentation information here -->
 </div>
 
 <div>
