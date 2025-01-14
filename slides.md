@@ -143,9 +143,9 @@ layout: statement
 class: 'text-center'
 ---
 
-# Create a repository
+# Accept the GitHub Classroom assignment
 
-<a href="https://github.com/new">https://github.com/new</a>
+<a href="https://classroom.github.com/a/O82YePSt">https://classroom.github.com/a/O82YePSt</a>
 
 ---
 layout: statement
