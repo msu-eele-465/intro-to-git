@@ -539,36 +539,32 @@ clicks: 1
 
 ```mermaid {scale: 1.4, theme: 'base'}
 gitGraph:
+  commit id: "intial-commit"
+  branch adc-driver
+  switch adc-driver
+  commit
+  commit
+  switch main
+  merge adc-driver 
+  branch lcd-driver
+  switch lcd-driver
   commit
   commit
   commit
-  branch feature1
-  checkout feature1
+  switch main
+  branch keypad
+  switch keypad
   commit
   commit
-  checkout main
-  merge feature1
-  commit tag: "v1.0.0"
-  branch feature2
-  commit
-  commit
-  checkout feature2
+  switch main
+  merge keypad 
+  switch lcd-driver
   commit
   commit
   commit
-  checkout main
-  commit "v.1.1.0"
-  branch feature3
-  checkout feature3
   commit
-  commit
-  checkout main
-  merge feature3 tag: "v1.2.0"
-  checkout feature2
-  commit
-  checkout main
-  merge feature2
-  commit tag: "v2.0.0"
+  switch main
+  merge lcd-driver tag: "v1.0.0"
 ```
 
 
