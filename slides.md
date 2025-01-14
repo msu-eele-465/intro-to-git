@@ -10,7 +10,7 @@ title: 'Intro to Git'
 
 # some information about the slides, markdown enabled
 info: |
-  ## Git intro: EELE 467
+  ## Git intro: EELE 465
 # persist drawings in exports and build
 drawings:
   persist: false
