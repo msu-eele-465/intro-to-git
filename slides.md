@@ -460,7 +460,7 @@ a commit by any other name...
 
 <v-click>
 
-`git tag -a v0.1`
+`git tag -a v0.1.0`
 
 </v-click>
 
@@ -470,7 +470,7 @@ a commit by any other name...
 
 # Exercise
 
-1. tag your most recent commit as `v1.0`
+1. tag your most recent commit as `v1.0.0`
 
 ---
 clicks: 1
