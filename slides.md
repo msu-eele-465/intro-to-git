@@ -29,7 +29,7 @@ presenter: dev
 transition: fade
 
 # force light mode
-colorSchema: 'light'
+# colorSchema: 'light'
 
 
 class: 'text-center'
