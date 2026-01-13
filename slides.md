@@ -65,7 +65,7 @@ layout: section
 
 <div class="grid grid-cols-2 gap-40">
 
-<div class="flex-row justify-evenly justify-items-center items-center align-text-center">
+<div class="flex-row justify-evenly justify-items-center items-center text-center">
 
 ## Centralized
 
@@ -76,7 +76,7 @@ SVN
 
 </div>
 
-<div class="flex-row justify-evenly justify-items-center items-center align-text-center">
+<div class="flex-row justify-evenly justify-items-center items-center text-center">
 
 ## Decentralized
 
