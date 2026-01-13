@@ -8,8 +8,6 @@
   },
   "dependencies": {
     "@slidev/cli": "latest",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*",
     "qrcode.vue": "^3.4.1",
     "slidev-theme-eloc": "latest"
   },
