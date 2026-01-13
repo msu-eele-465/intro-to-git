@@ -1,5 +1,5 @@
 {
-  "name": "presentation",
+  "name": "intro-to-git-presentation",
   "private": true,
   "scripts": {
     "build": "slidev build",
@@ -9,12 +9,12 @@
   "dependencies": {
     "@slidev/cli": "latest",
     "qrcode.vue": "^3.4.1",
-    "slidev-theme-eloc": "latest"
-  },
-  "devDependencies": {
+    "slidev-theme-eloc": "latest",
     "@iconify-json/emojione": "^1.1.7",
     "@iconify-json/flat-color-icons": "^1.1.7",
-    "@iconify-json/mdi": "^1.1.54",
+    "@iconify-json/mdi": "^1.1.54"
+  },
+  "devDependencies": {
     "playwright-chromium": "^1.25.2"
   }
 }
