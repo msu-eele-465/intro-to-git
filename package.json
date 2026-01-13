@@ -7,7 +7,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "latest",
+    "@slidev/cli": "52.9.1",
     "qrcode.vue": "^3.4.1",
     "slidev-theme-eloc": "latest",
     "@iconify-json/emojione": "^1.1.7",
