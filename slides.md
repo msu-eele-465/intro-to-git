@@ -145,7 +145,7 @@ class: 'text-center'
 
 # Accept the GitHub Classroom assignment
 
-<a href="https://classroom.github.com/a/O82YePSt">https://classroom.github.com/a/O82YePSt</a>
+https://classroom.github.com/a/p-TI6W3q
 
 ---
 layout: statement
