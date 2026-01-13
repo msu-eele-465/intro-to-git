@@ -201,13 +201,13 @@ clicks: 9
 
 <div v-click="8" class="absolute left-1000px top-520px text-blue-500">
 
-#### interact with GitHub
+#### interacting with GitHub
 
 </div>
 
 <div v-click="9" class="absolute left-1000px top-680px text-red-500">
 
-#### view what you've done
+#### viewing changes/history
 
 </div>
 
