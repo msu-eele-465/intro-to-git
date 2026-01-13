@@ -634,7 +634,6 @@ revert your first commit
 
 ---
 
-Playground: <a href="https://git-school.github.io/visualizing-git">https://git-school.github.io/visualizing-git</a>
+Sandbox: https://learngitbranching.js.org/?NODEMO
 
-<iframe src="https://git-school.github.io/visualizing-git" title="https://git-school.github.io/visualizing-git"></iframe>
-
+<iframe src="https://learngitbranching.js.org/?NODEMO" title="Learn Git Branching sandbox"></iframe>
